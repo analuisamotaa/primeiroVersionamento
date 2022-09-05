@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom, #D60000, rgba(0, 0, 0, 0.974));
+}
+
+header {
+    text-align: center;
+    background-color: rgb(232, 13, 13);
+    padding: 20px;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.272);
+    margin-bottom: 30px;
+
+}
+
+header > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 25px;
+    transition-duration: 0.5s;
+
+}
+
+header > a:hover {
+    text-decoration: underline;
+    padding: 5px;
+   background-color: #B00000;
+   border-radius: 5px;
+
+}
+
+main {
+    background-color: bisque;
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+    padding: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main h1 {
+    color: red;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+main img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+main table {
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+main table td {
+    border-bottom: 1px solid black;
+}
+
+main#lutador {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+}
+
+main#lutador div {
+    border: 1px solid black;
+    text-align: center;
+}
+
+main div#maior {
+    width: 460px;
+}
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(232, 13, 13);
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.318);
+}
